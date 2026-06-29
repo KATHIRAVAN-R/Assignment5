@@ -11,9 +11,16 @@
     --bg5-- : #c1d3fe;
     --bg6-- : #b6ccfe;
     --bg7-- : #abc4ff;
+
+    --tx1-- : #ffffff; 
+    --tx2-- : #000000; 
+    --tx3-- : #183153; 
 }
 body{
     background-color: var(--bg1--);
+}
+.main_container{
+    margin: 0;
 }
 .sub_container{
     /* border: 2px solid red; */
@@ -35,4 +42,21 @@ body{
 .sub_container5{
     background-color: var(--bg5--);
 }
+/* navbar start */
+.nav_container{
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand {
+    color: var(--tx3--);
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+.navbar{
+    border: 2px solid red;
+
+}
+
+/* navbar end */
 
