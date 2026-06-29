@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg1-- : #edf2fb;
+    --bg2-- : #e2eafc;
+    --bg3-- : #d7e3fc;
+    --bg4-- : #ccdbfd;
+    --bg5-- : #c1d3fe;
+    --bg6-- : #b6ccfe;
+    --bg7-- : #abc4ff;
+}
+body{
+    background-color: var(--bg1--);
+}
+.sub_container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+.sub_container1{
+    background-color: var(--bg1--);
+}
+.sub_container2{
+    background-color: var(--bg2--);
+}
+.sub_container3{
+    background-color: var(--bg3--);
+}
+.sub_container4{
+    background-color: var(--bg4--);
+}
+.sub_container5{
+    background-color: var(--bg5--);
+}
+
