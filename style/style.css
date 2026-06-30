@@ -72,6 +72,7 @@ body{
     height: auto;
 }
 .sub_container1 img{
+    padding: 2px;
     border: 2px solid var(--tx2--);
     border-radius: 1em;
     box-shadow: 2px 2px 2px 2px var(--tx3--);
@@ -96,7 +97,6 @@ body{
 }
 
 .col{
-    border: 2px solid red;
     padding: 1em;
 }
 
