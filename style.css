@@ -11,6 +11,10 @@
     --bg5-- : #c1d3fe;
     --bg6-- : #b6ccfe;
     --bg7-- : #abc4ff;
+    --bg8-- : #ffffff;
+    --bg9-- : #000000;
+
+
 
     --tx1-- : #ffffff; 
     --tx2-- : #000000; 
@@ -28,7 +32,8 @@ body{
     height: 100vh;
 }
 .sub_container1{
-    background-color: var(--bg1--);
+    background-color: var(--bg8--);
+    background-color: #000000;
 }
 .sub_container2{
     background-color: var(--bg2--);
@@ -48,13 +53,19 @@ body{
     position: sticky;
     top: 0;
 }
-.navbar-brand {
+.navbar-brand , .navbar-toggler, .nav-link{
     color: var(--tx3--);
     font-weight: bolder;
     font-variant: small-caps;
+  
+}
+.navbar-collapse {
+    border: 2px solid red;
+    background-color: #183153;
 }
 .navbar{
     border: 2px solid red;
+    background-color: green;
 
 }
 
