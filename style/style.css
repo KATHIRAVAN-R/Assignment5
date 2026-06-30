@@ -51,7 +51,8 @@ body{
     background-color: transparent;
     position: sticky;
     top: 0;
-    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px 1px var(--tx3--);
+    backdrop-filter: blur(2px);
 }
 .navbar-brand , .navbar-toggler, .nav-link{
     color: var(--tx3--);
@@ -60,8 +61,15 @@ body{
   
 }
 
-
-
-
 /* navbar end */
 
+/* container 1 Home starts  */
+/* container 1 Home ends  */
+/* container 2 Home starts  */
+/* container 2 Home ends  */
+/* container 3 Home starts  */
+/* container 3 Home ends  */
+/* container 4 Home starts  */
+/* container 4 Home ends  */
+/* container 5 Home starts  */
+/* container 5 Home ends  */
