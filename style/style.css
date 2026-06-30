@@ -65,15 +65,15 @@ body{
 
 /* container 1 Home starts  */
 .sub_container1{
-    margin: 5px auto;
-    padding: 1em;
     text-align: center;
     color: var(--tx3--);
+    margin: 5px auto;
+    padding: 5px;
+    height: auto;
 }
 .sub_container1 img{
     border: 2px solid var(--tx2--);
     border-radius: 1em;
-    padding: 2px;
     box-shadow: 2px 2px 2px 2px var(--tx3--);
 }
 .sub_container1 h2,
@@ -81,8 +81,6 @@ body{
     text-align:center;
     text-shadow: 2px 2px 10px var(--tx3--);
     font-variant: small-caps;
-    padding: 5px;
-    margin: 10px auto;
 }
 .sub_container1 p {
         font-family: 'Courier New', Courier, monospace;
@@ -96,6 +94,12 @@ body{
         box-shadow: 2px 2px 4px 2px var(--tx3--);
         border-radius: 1em;
 }
+
+.col{
+    border: 2px solid red;
+    padding: 1em;
+}
+
 
 /* container 1 Home ends  */
 /* container 2 Home starts  */
