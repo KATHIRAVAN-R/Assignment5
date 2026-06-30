@@ -33,7 +33,6 @@ body{
 }
 .sub_container1{
     background-color: var(--bg8--);
-    background-color: #000000;
 }
 .sub_container2{
     background-color: var(--bg2--);
@@ -59,15 +58,8 @@ body{
     font-variant: small-caps;
   
 }
-.navbar-collapse {
-    border: 2px solid red;
-    background-color: #183153;
-}
-.navbar{
-    border: 2px solid red;
-    background-color: green;
 
-}
+
 
 /* navbar end */
 
