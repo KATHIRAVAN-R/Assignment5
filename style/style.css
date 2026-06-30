@@ -51,6 +51,7 @@ body{
     background-color: transparent;
     position: sticky;
     top: 0;
+    backdrop-filter: blur(5px);
 }
 .navbar-brand , .navbar-toggler, .nav-link{
     color: var(--tx3--);
