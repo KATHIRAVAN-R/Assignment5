@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <title>Assignment5</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -16,12 +19,12 @@
         <div class="nav_container">
             <!-- nav container starts -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid  justify-">
+                <div class="container-fluid  ">
                     <a class="navbar-brand" href="#">
                         <img src="images/hotel2.png" width="30" height="30" alt="">
                         Hotel's
                     </a>
-                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button">
                         <!-- aria-controls="navbarNav" aria-expanded="tr" aria-label="Toggle navigation" -->
                         <span class="navbar-toggler-icon">
                             <img src="images/toggle.png" class="navbar-toggler-icon" width="30" height="24" alt="">
@@ -50,19 +53,20 @@
             </nav>
             <!-- nav container end-->
         </div>
-<!-- ******************************* -->
-        <div class="sub_container sub_container1 p-5" id="home" >
+        <!-- ******************************* -->
+        <div class="sub_container sub_container1" id="home">
             <!-- Container1 Home starts -->
             <div class="container grid">
                 <div class="row">
                     <div class="col col-lg-6 col-12 col_1">
                         <h2>Welcome</h2>
                         <h3>Explore More!</h3>
-                        <p> High-quality, emotive imagery of property highlights e.g., swimming pools, room views, or dining</p>
+                        <p> High-quality, emotive imagery of property highlights e.g., swimming pools, room views, or
+                            dining</p>
                         <a href="#about" class="btn">Explore</a>
                     </div>
                     <div class="c1_img col col-lg-6 col-12 col_2">
-                        <img src="images/hotel_2.jpg"   alt="">
+                        <img src="images/hotel_2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -70,7 +74,52 @@
         <!-- Container1 Home ends -->
         <div class="sub_container sub_container2" id="about">
             <!-- container starts -->
-            
+            <div class="container-fluid container_about">
+                <div class="booking">
+                    <form class="container-fluid booking_form">
+                        <!-- Use g-3 for consistent padding/gutters between form rows and columns -->
+                        <div class="form_row row g-3">
+                            <!-- Row 1: Email and Password side-by-side on medium screens and up -->
+                            <div class="col-md-3">
+                                <label for="inputState" class="form-label">Place</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Chennai</option>
+                                    <option>Villupuram</option>
+                                    <option>Tiruchi</option>
+                                    <option>Madurai</option>
+                                    <option>Thirunelveli</option>
+                                    <option>Coimbatore</option>
+                                    <option>Selem</option>
+                                    <option>Kaniyakumari</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="inputPassword" class="form-label">Person</label>
+                                <input type="number" class="form-control" id="inputPassword" placeholder="adult ">
+                            </div>
+
+                            <div class="col-md-2">
+                                <label for="inputAddress" class="form-label">Check IN</label>
+                                <input type="date" class="form-control" id="inputAddress">
+                            </div>
+
+                            <div class="col-md-2">
+                                <label for="inputAddress" class="form-label">Check OUT</label>
+                                <input type="date" class="form-control" id="inputAddress">
+                            </div>
+
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="coursel">
+
+                </div>
+            </div>
+
             <!-- container starts -->
             container2 about
         </div>

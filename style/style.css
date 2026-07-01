@@ -68,7 +68,7 @@ body{
     text-align: center;
     color: var(--tx3--);
     margin: 5px auto;
-    padding: 5px;
+    padding: 2em;
     height: auto;
 }
 .sub_container1 img{
@@ -105,8 +105,32 @@ body{
 
 
 /* container 1 Home ends  */
-/* container 2 Home starts  */
-/* container 2 Home ends  */
+
+/* container 2 about starts  */
+
+.sub_container2{
+    border: 2px solid red;
+    padding: 1em;
+}
+.container_about{
+    border: 2px solid green;
+    padding: 1em;
+}
+.booking{
+    border: 2px solid cyan;
+   padding: 1em;
+}
+.booking_form{
+    border: 5px solid rgb(71, 44, 44);
+    padding: 2em;
+}
+.form_row{
+    border: 2px solid green;
+    padding: 1em;
+    text-align: center;
+}
+
+/* container 2 about ends  */
 /* container 3 Home starts  */
 /* container 3 Home ends  */
 /* container 4 Home starts  */
